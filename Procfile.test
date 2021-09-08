@@ -1,0 +1,3 @@
+node: npx hardhat node
+frontend: sleep 3; npx hardhat run --network localhost scripts/deploy.js && cd frontend && npm run dev
+synpress: sleep 6; cd frontend && npx synpress run --configFile tests/e2e/config.json

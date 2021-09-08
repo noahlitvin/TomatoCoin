@@ -1,0 +1,32 @@
+
+.bounce {
+	-webkit-animation: bounce 0.75s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite alternate both;
+	        animation: bounce 0.75s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite alternate both;
+}
+
+ @-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-110px);
+            transform: translateY(-110px);
+  }
+}
+
+.zoom {
+	-webkit-animation: zoom 0.75s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite alternate both;
+	        animation: zoom 0.75s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite alternate both;
+}
+
+ @-webkit-keyframes zoom {
+  0% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
